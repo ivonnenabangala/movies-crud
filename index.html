@@ -10,16 +10,16 @@
 </head>
 
 <body>
-    <form action="submit">
+    <form id="myForm" action="submit">
+        <label for="imageUrl">ImageURL</label><br>
+        <input type="text" id="imageUrl"><br>
+        <label for="description">Description</label><br>
+        <input type="text" id="description"><br>
         <label for="title">Title</label><br>
-        <input type="text"><br>
-        <label for="title">Title</label><br>
-        <input type="text"><br>
-        <label for="title">Title</label><br>
-        <input type="text"><br>
-        <label for="title">Title</label><br>
-        <input type="text"><br>
-        <button>Submit</button>
+        <input type="text" id="title"><br>
+        <label for="title">Rating</label><br>
+        <input type="text" id="rating"><br>
+        <button onclick="addMovie">Submit</button>
     </form>
 
     <h1>Movies</h1>
