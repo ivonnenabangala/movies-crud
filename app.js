@@ -5,6 +5,7 @@ function addMovie() {
     document.getElementById("myForm").submit();
 }
 
+let movieId = 1
 const form = document.getElementById("myForm")
 form.onsubmit = (event) => {
     event.preventDefault()
@@ -20,6 +21,7 @@ form.onsubmit = (event) => {
         rating,
     });
     const newMovie = {
+        id: movieId++,
         image: imageUrl,
         description: description,
         title: title,
