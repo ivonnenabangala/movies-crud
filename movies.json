@@ -1,0 +1,25 @@
+{
+    "items": [
+      {
+        "image": "./images/mufasa.jpeg",
+        "description": "Description of the movie",
+        "title": "Title 1",
+        "rating": 4.5
+      },
+
+      {
+        "image": "./images/jackal.jpeg",
+        "description": "Description of the movie",
+        "title": "Title 2",
+        "rating": 3.8
+      },
+
+      {
+        "image": "./images/citadel.jpeg",
+        "description": "Description of the movie",
+        "title": "Title 3",
+        "rating": 4.2
+      }
+    ]
+  }
+  
