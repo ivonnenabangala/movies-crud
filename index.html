@@ -11,6 +11,7 @@
 
 <body>
     <form id="myForm" action="submit">
+        <h1>Add Movie</h1>
         <label for="imageUrl">ImageURL</label><br>
         <input type="text" id="imageUrl"><br>
         <label for="description">Description</label><br>
@@ -24,12 +25,13 @@
 
     <h1>Movies</h1>
     <div class="card" id="movieCard">
-        
+
     </div>
-    <div class="card">
+    <!-- <div class="card">
         <h1>Title</h1>
         <img src="./images/jackal.jpeg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, fugiat molestias officia commodi eligendi ab. Repudiandae culpa laboriosam voluptatibus doloremque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, fugiat molestias officia commodi eligendi ab.
+            Repudiandae culpa laboriosam voluptatibus doloremque!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -37,11 +39,15 @@
         <span class="fa fa-star"></span>
         <div class="buttons">
 
-            <button>Edit</button>
+            <button onclick="openForm()">Edit</button>
             <button>Delete</button>
+
         </div>
+    </div> -->
+    <div class="form-popup" id="editForm">
+        
     </div>
-    
+
     <script defer src="app.js"></script>
 </body>
 
