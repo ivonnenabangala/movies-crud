@@ -49,8 +49,22 @@ const getMovie = () => {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star"></span>
+        <div class="buttons">
+        <button>Edit</button>
+        <button onclick="deleteMovie(${movie.id})">Delete</button>
+        </div>
     `
         movieCard.append(myMovie)
     }
 
+}
+
+const deleteMovie = (id) => {
+    let index = movies.map(x => {
+        return x.id;
+      }).indexOf(id);
+      
+      movies.splice(index, 1);
+      getMovie();
+      console.log(movies);
 }
